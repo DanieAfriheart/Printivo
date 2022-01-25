@@ -1,0 +1,250 @@
+/* Media Query */
+@media screen and (max-width: 20em){
+
+  
+
+    /* Navigation Bar 1 */
+    nav div{
+        font-size: 0.9em;
+    }
+    .r_links{
+        display: none;
+    }
+    .help{
+        display: none;
+    }
+
+
+
+    /* Navigation 2 */
+    .nav__2{
+        padding: 0;
+    }
+    .nav_2{
+        font-size: 0.7em;
+        padding: 0;
+    }
+    .logo img{
+        width: 7em;
+        padding: 0;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    .mid_links{
+        margin-left: 0;
+    }
+    .mid_links a{
+        display: none;
+    }
+    .create{
+        display: none;
+    }
+    
+
+    /* Section 1 */
+    .section1{
+        height: 50vh;
+    }
+    .sec1_header{
+        font-size: 0.5em;
+    }
+    .sec1_header h3{
+        font-size: 2.2em;
+    }
+    .sec1_input h4{
+        font-size: 0.8em;
+    }
+    .image img{
+        display: none;
+    }
+    .sec1_input{
+        margin-top: 1em;
+    }
+    .input1{
+        font-size: 0.7em !important;
+        margin-top: 1em !important;
+        width: 89vw !important;
+        position: absolute !important;
+        border: 0 !important;
+        padding: 1em !important;
+    }
+    .search_icon{
+        position: relative !important;
+        font-size: 1em;
+        margin-left: 16em;
+    }
+
+
+    /* Sticky */
+    .sticky{
+        width: 40vw !important;
+        padding: 0.5em;
+        position: fixed !important;
+        margin-top: 24vh;
+    }
+
+    /* Section 2 */
+    .section2_header h1, h3{
+        font-size: 1em !important;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(22em, auto);
+        grid-gap: 2em;
+    }
+
+    
+    /* Section 4 */
+    .sec4_container h1{
+        font-size: 1.5em;
+    }
+    .sec4_para{
+        font-size: 0.85em;
+        width: 100%;
+    }
+
+    /* Section 5 */
+    .section5{
+        height: 29em;
+        padding: 0;
+    }
+    .sec5_container{
+        padding-top: 2em;
+    }
+    .sec5_header{
+        font-size: 1.5em;
+    }
+    .sec5_grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .sec5_grid{
+        grid-gap: 1.5em;
+    }
+    .sec5_grid div{
+        font-size: 0.85em;
+    }
+
+
+    /* Section 6 */
+    .section6{
+        padding-top: 2em;
+        height: 99vh;
+    }
+    .sec6_header{
+        font-size: 0.7em;
+    }
+    .sec6_grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+    .sec6_content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sec6_icon{
+        margin: 0;
+    }
+    .sec6_icon img{
+        width: 16vw;
+    }
+
+
+    /* Section 7 */
+    .section7{
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-top: 4em;
+        height: 36em;
+    }
+    .sec7_header h1{
+        font-size: 1.2em;
+    }
+    .sec7_grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+
+
+    .sec7_content a{
+        font-size: 0.8em;
+        margin-top: 0;
+    }
+
+
+    /* Newsletter */
+    .newsletter{
+        height: 22em;
+        padding: 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
+    }
+    .news_container{
+        width: 85vw !important;
+        margin-top: 2em;
+    }
+     .news_header h1{
+        font-size: 1em;
+    }
+    .inputs{
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute !important;
+    }
+    .inputs div{
+        font-size: 1em;
+    }
+    .inputs input{
+        width: 100%;
+        padding: 1em;
+        font-size: 1em;
+    }
+    .input2{
+        margin-top: 1em;
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+    .in2_button{
+        margin-top: 6.2em;
+        width: 7em;
+        font-size: 1em;
+        margin-left: 10em;
+        padding: 1em;
+    }
+
+
+    /* Footer */
+    footer{
+        height: 50em;
+        font-size: 1em;
+    }
+    .foot_grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+    }
+    .payment{
+        margin-top: 1em;
+    }
+    .payment_icons{
+        width: 10em;
+    }
+    .delivery{
+        margin-top: 1em;
+    }
+    .delivery_icon{
+        width: 10em;
+    }
+
+    .footer_div{
+        font-size: 0.8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
