@@ -1,6 +1,8 @@
 /* Media Query */
-@media screen and (max-width: 320px){
-
+@media screen and (max-width: 415px){
+*{
+    /* border: 1px solid red; */
+}
     /* Navigation Bar 1 */
     nav div{
         font-size: 0.9em;
@@ -246,3 +248,4 @@
         justify-content: center;
     }
 }
+
