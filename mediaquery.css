@@ -1,7 +1,5 @@
 /* Media Query */
-@media screen and (max-width: 20em){
-
-  
+@media screen and (max-width: 320px){
 
     /* Navigation Bar 1 */
     nav div{
@@ -176,7 +174,7 @@
 
     /* Newsletter */
     .newsletter{
-        height: 22em;
+        height: 25em;
         padding: 0 !important;
         justify-content: center !important;
         align-items: center !important;
@@ -210,7 +208,7 @@
 
     }
     .in2_button{
-        margin-top: 6.2em;
+        margin-top: 7.5em;
         width: 7em;
         font-size: 1em;
         margin-left: 10em;

@@ -105,7 +105,7 @@ nav div{
 .search_icon{
     font-size: 1.5em;
     position: relative;
-    margin-left: 24.5em;
+    margin-left: 30em;
     margin-top: 1.5em;
 }
 
@@ -365,7 +365,7 @@ button{
     padding: 1em;
     font-size: 1.2em;
     background-color: #384A62;
-    margin-left: 18.3em;
+    margin-left: 22em;
     margin-top: 0.3em;
 }
 
@@ -419,6 +419,3 @@ li a{
 .delivery_icon{
     width: 15vw;
 }
-
-
-
